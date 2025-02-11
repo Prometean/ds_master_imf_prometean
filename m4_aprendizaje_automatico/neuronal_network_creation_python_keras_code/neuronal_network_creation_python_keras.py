@@ -10,7 +10,7 @@ dataset = loadtxt(URL_FICHERO, delimiter=',')
 
 # Separación de las variables independientes de la dependiente
 X = dataset[:,0:8]
-y = dataset[:8]
+y = dataset[:, 8]
 
 # Definició del modelo
 model = Sequential()
